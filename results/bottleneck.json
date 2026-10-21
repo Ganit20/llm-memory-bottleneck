@@ -1,0 +1,57 @@
+{
+ "dense8": {
+  "params": 6496768,
+  "val_bpb": 2.007945450900973,
+  "train_s": 633.0433781147003,
+  "bytes_per_token": {
+   "core_bytes": 12993536,
+   "mem_rows_read": 0,
+   "context_2048": 16777216,
+   "mem_table_bytes": 0
+  }
+ },
+ "dense2": {
+  "params": 1772032,
+  "val_bpb": 2.3599687331596586,
+  "train_s": 173.4641032218933,
+  "bytes_per_token": {
+   "core_bytes": 3544064,
+   "mem_rows_read": 0,
+   "context_2048": 4194304,
+   "mem_table_bytes": 0
+  }
+ },
+ "loop": {
+  "params": 1773056,
+  "val_bpb": 2.2441763262194603,
+  "train_s": 616.4876999855042,
+  "bytes_per_token": {
+   "core_bytes": 3546112,
+   "mem_rows_read": 0,
+   "context_2048": 16777216,
+   "mem_table_bytes": 0
+  }
+ },
+ "loop_mem": {
+  "params": 18812928,
+  "val_bpb": 2.2226102039906044,
+  "train_s": 1558.088042974472,
+  "bytes_per_token": {
+   "core_bytes": 4071424,
+   "mem_rows_read": 16384,
+   "context_2048": 16777216,
+   "mem_table_bytes": 33554432
+  }
+ },
+ "loop_mem_ret": {
+  "params": 18748416,
+  "val_bpb": 2.1772351750588275,
+  "train_s": 1383.1886668205261,
+  "bytes_per_token": {
+   "core_bytes": 3942400,
+   "mem_rows_read": 16384,
+   "context_2048": 262144,
+   "mem_table_bytes": 33554432
+  }
+ }
+}

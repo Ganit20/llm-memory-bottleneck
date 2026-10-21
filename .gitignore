@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+stores/
+results/*.pt
+results/*.log
+results/requeue.sh
+# unfinished, no results yet
+mlx_stream/
+arith_exp.py

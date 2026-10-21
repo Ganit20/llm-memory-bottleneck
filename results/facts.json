@@ -1,0 +1,44 @@
+{
+ "loop_mem": {
+  "params": 6589440,
+  "core_bytes": 4790272,
+  "mem_read_per_token": 16384,
+  "acc_1hop": {
+   "city": 1.0,
+   "job": 1.0,
+   "year": 1.0,
+   "friend": 1.0
+  },
+  "acc_2hop_train": 1.0,
+  "acc_2hop_heldout": 0.0055,
+  "train_s": 3861.6794900894165
+ },
+ "loop": {
+  "params": 2198016,
+  "core_bytes": 4396032,
+  "mem_read_per_token": 0,
+  "acc_1hop": {
+   "city": 1.0,
+   "job": 1.0,
+   "year": 1.0,
+   "friend": 1.0
+  },
+  "acc_2hop_train": 1.0,
+  "acc_2hop_heldout": 0.004,
+  "train_s": 2052.6095900535583
+ },
+ "loop_mem_cot": {
+  "params": 6589952,
+  "core_bytes": 4791296,
+  "mem_read_per_token": 16384,
+  "acc_1hop": {
+   "city": 1.0,
+   "job": 1.0,
+   "year": 1.0,
+   "friend": 1.0
+  },
+  "acc_2hop_train": 1.0,
+  "acc_2hop_heldout": 0.4013333333333333,
+  "train_s": 4937.119770765305
+ }
+}

@@ -1,0 +1,48 @@
+{
+ "r_look_before_ft": {
+  "router_group": 103.58471885726019,
+  "router_cache": {
+   "ffn_read_per_token": 0.13003133138020834,
+   "recall_vs_oracle": 0.7436370849609375,
+   "new_groups_per_token": 0.26103676536253523
+  }
+ },
+ "r_look": {
+  "dense": 31.855666035814863,
+  "oracle_group": 33.66904296123625,
+  "oracle_cache": {
+   "ffn_read_per_token": 0.15518130347842263,
+   "recall_vs_oracle": 1.0,
+   "new_groups_per_token": 0.31150678225925993
+  },
+  "router_group": 40.51359922348169,
+  "router_cache": {
+   "ffn_read_per_token": 0.13439825148809523,
+   "recall_vs_oracle": 0.7567487444196429,
+   "new_groups_per_token": 0.2700810938009194
+  }
+ },
+ "r_look_tl_before_ft": {
+  "router_group": 102.56367729003081,
+  "router_cache": {
+   "ffn_read_per_token": 0.12931460425967262,
+   "recall_vs_oracle": 0.7435411725725446,
+   "new_groups_per_token": 0.25969518614666803
+  }
+ },
+ "r_look_tl": {
+  "dense": 31.78172720376955,
+  "oracle_group": 33.67034595802703,
+  "oracle_cache": {
+   "ffn_read_per_token": 0.15637875511532737,
+   "recall_vs_oracle": 1.0,
+   "new_groups_per_token": 0.3136127958340304
+  },
+  "router_group": 41.25736250078411,
+  "router_cache": {
+   "ffn_read_per_token": 0.08630400158110119,
+   "recall_vs_oracle": 0.7540719168526786,
+   "new_groups_per_token": 0.17365449054964952
+  }
+ }
+}

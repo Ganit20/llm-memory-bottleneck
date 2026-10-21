@@ -1,0 +1,25 @@
+{
+ "r_look_tl_before_ft": {
+  "router_group": 103.65948765209923,
+  "router_cache": {
+   "ffn_read_per_token": 0.13043706984747025,
+   "recall_vs_oracle": 0.7426458086286273,
+   "new_groups_per_token": 0.2618607170879841
+  }
+ },
+ "r_look_tl": {
+  "dense": 32.58120421151654,
+  "oracle_group": 34.635187891578134,
+  "oracle_cache": {
+   "ffn_read_per_token": 0.15651710146949407,
+   "recall_vs_oracle": 1.0,
+   "new_groups_per_token": 0.3139442333153316
+  },
+  "router_group": 44.501240151431595,
+  "router_cache": {
+   "ffn_read_per_token": 0.05843128022693452,
+   "recall_vs_oracle": 0.741567884172712,
+   "new_groups_per_token": 0.1180436649758901
+  }
+ }
+}
